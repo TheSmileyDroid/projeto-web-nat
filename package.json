@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@types/chart.js": "^2.9.39",
+    "chart.js": "2.9.4",
+    "jquery": "^3.7.1"
+  }
+}
