@@ -1,5 +1,11 @@
 <?php
 $load = sys_getloadavg();
-$cpus = 8;
+$cpus = count(file('/proc/stat'));
 $cpu_usage = round($load[0] / $cpus * 100, 2);
-echo json_encode(array('cpu_usage' => $cpu_usage));
+
+$result = [
+  'cpus_cores' => $cpus,
+  'cpu_usage' => $cpu_usage,
+];
+
+echo json_encode($result);

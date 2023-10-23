@@ -1,11 +1,11 @@
-import 'jquery'
-import { Chart } from 'chart.js'
+import "jquery";
+import { Chart } from "chart.js";
 declare global {
-    interface Window {
-        $: any
-    }
+  interface Window {
+    $: any;
+  }
 
-    interface JQuery {
-        modal: any
-    }
+  interface JQuery {
+    modal: any;
+  }
 }

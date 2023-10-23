@@ -66,8 +66,6 @@
     <canvas id="cpu-chart" class="chart"></canvas>
     <canvas id="ram-chart" class="chart"></canvas>
     <script type="text/javascript" src="js/chart.js"></script>
-    <script type="text/javascript" src="js/cpu.js"></script>
-    <script type="text/javascript" src="js/ram.js"></script>
 </body>
 
 </html>
